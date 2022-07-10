@@ -1,0 +1,2 @@
+# Evaluation-of-Safety-in-Public-Transist
+This project based training aims to document security pain points and strategies adopted by different cities in the world to ensure inclusive development in public transit systems. In Nairobi Kenya this project will explore and analyze what safety means for commuters using public service vehicles. The project will be anchored around: Data Analysis and Data Visualization
