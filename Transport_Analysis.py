@@ -12,13 +12,3 @@ This web app demonstrates Safety of Transport dataset collected to document secu
 
 
 
-csv_file= "G:/Transport Safety Project/Clean Data.csv"
-
-
-data= pd.read_csv (csv_file)
-
-
-
-Gender_Select = st.multiselect('gender:',
-                                    gender,
-                                    default=gender)
