@@ -3,12 +3,21 @@ import pandas as pd
 import streamlit as st
 
 
-st.write ("""
+st.set_page_config(page_title='TRANSPORT SAFETY APP')
+st.header('SAFETY ANALYSIS')
 
-# Transport Safety App
 
-This web app demonstrates Safety of Transport dataset collected to document security pain points and strategies adopted by different cities in the world to ensure inclusive development in public transit systems""")
+st.subheader('Was the tutorial helpful?')
 
+
+### --- LOAD DATAFRAME
+CSV_file = "G:/Transport Safety Project/Clean Data.csv"
+sheet_name = 'Clean Data'
+
+df = pd.read_CSV(CSV_file,
+                   sheet_name=sheet_name,
+                   usecols='A:I',
+                   header=7)
 
 
 
